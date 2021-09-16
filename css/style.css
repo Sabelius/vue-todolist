@@ -2,3 +2,11 @@
     list-style-type: none;
     font-size: 20px;
 }
+
+.fas{
+    color: rgb(48, 48, 235);
+}
+
+.fas:hover{
+    color: rgba(48, 48, 235, 0.6);
+}

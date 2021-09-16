@@ -6,5 +6,9 @@ let root = new Vue({
     },
     
     methods : {
+
+        removeItem: function(indice){
+            this.shoppingList.splice(indice, 1);
+        }
     },
 });
