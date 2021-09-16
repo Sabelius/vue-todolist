@@ -14,6 +14,10 @@ let root = new Vue({
             this.shoppingList.splice(indice, 1);
         },
 
+        removeItems: function(){
+            this.shoppingList.splice([]);
+        },
+
         addNewItem: function (){
             if (this.newItem.trim().length > 0 && isNaN(this.newItem)){
                 this.shoppingList.push(this.newItem);

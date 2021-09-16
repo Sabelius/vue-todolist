@@ -1,5 +1,5 @@
 .shopping-gif{
-    width: 400px;
+    width: 540px;
     height: 200px;
 }
 .button{
@@ -10,6 +10,9 @@
     transition-duration: 0.4s;
     overflow: hidden;
     cursor: pointer;
+}
+.btn-two{
+    background-color: red;
 }
 
 .button:after{

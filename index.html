@@ -25,8 +25,9 @@
     <div class="container text-center p-2" id="root">
         <div class="row">
             <div class="col-12">
-                <input class="input" type="text" placeholder="Aggiungi un nuovo elemento alla lista." v-model="newItem">
+                <input class="input" type="text" placeholder="Aggiungi un nuovo elemento alla lista." v-model="newItem" @keyup.enter="addNewItem">
                 <button type="button" class="text-uppercase ml-2 button" @click= "addNewItem">aggiungi</button>
+                <button type="button" class="text-uppercase ml-2 button btn-two" @click= "removeItems">cancella lista</button>
                 <ul class="p-2 text-uppercase">
                     <li class="items-list p-2" v-for= "(item, index) in shoppingList">{{ item }} 
                     <i class="fas fa-shopping-cart pl-3" @click = "removeItem(index)"></i></li>
