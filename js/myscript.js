@@ -4,6 +4,8 @@ let root = new Vue({
     data: {
         shoppingList : ["pane", "patate", "pasta integrale", "parmigiano", "banane", "mele", "riso basmati"],
     },
+
+    
     
     methods : {
 

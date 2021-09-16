@@ -21,10 +21,12 @@
             </div>
         </div>
     </div>
-    <div class="container" id="root">
+    <div class="container text-center p-5" id="root">
         <div class="row">
             <div class="col-12">
-                <ul class="p-5 text-uppercase text-center">
+                <input class="input" type="text" placeholder="Aggiungi un nuovo elemento alla lista.">
+                
+                <ul class="p-3 text-uppercase">
                     <li class="items-list p-2" v-for= "(item, index) in shoppingList">{{ item }} 
                     <i class="fas fa-shopping-cart pl-3" @click = "removeItem(index)"></i></li>
                     

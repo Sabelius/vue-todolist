@@ -1,3 +1,7 @@
+.input{
+    width: 300px;
+}
+
 .items-list{
     list-style-type: none;
     font-size: 20px;
